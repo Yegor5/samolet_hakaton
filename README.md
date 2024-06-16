@@ -12,5 +12,5 @@
 
 Техническая реализация экспертной системы представлена диаграммой ниже
 
-![diagram](diagram.jpg)
+![diagram](pictures/diagram.jpg)
 
