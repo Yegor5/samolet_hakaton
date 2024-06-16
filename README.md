@@ -6,9 +6,15 @@
    ```bash
    docker build -t plane .
    ```
-3. Запуск контейнера:
+2. Запуск контейнера:
    ```bash
    docker run -p 8000:8000 -d --name plane-container plane
+   ```
+3. Локальный запуск:
+   ```python
+   import requests
+   r = requests.post("http://0.0.0.0:8000/predict", json={"data":"скидка два процента"})
+   print(r.content)
    ```
 
 ## Пример запроса
