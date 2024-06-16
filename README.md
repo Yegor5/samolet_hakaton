@@ -16,6 +16,10 @@ r = requests.post("http://0.0.0.0:8000/predict", json={"data":"скидка дв
 print(r.content)
 ```
 
+```python
+b'{"result":["B-discount","B-value","I-value"]}'
+```
+
 ## Диаграмма
 
 Техническая реализация экспертной системы представлена диаграммой ниже
