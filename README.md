@@ -10,9 +10,11 @@
 
 ## Пример запроса
 
+Наш сервер уже развернут, Вы можете попробовать его по адресу: 158.160.116.205:8000
+
 ```python
 import requests
-r = requests.post("http://0.0.0.0:8000/predict", json={"data":"скидка два процента"})
+r = requests.post("http://158.160.116.205:8000/predict", json={"data":"скидка два процента"})
 print(r.content)
 ```
 
