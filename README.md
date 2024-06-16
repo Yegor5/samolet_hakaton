@@ -2,8 +2,14 @@
 
 ## Сборка Docker-образа
 
-1. Создание образа: ```docker build -t plane .```
-2. Запуск контейнера: ```docker run -p 8000:8000 -d --name plane-container plane```
+1. Создание образа:
+   ```bash
+   docker build -t plane .
+   ```
+3. Запуск контейнера:
+   ```bash
+   docker run -p 8000:8000 -d --name plane-container plane
+   ```
 
 ## Пример запроса
 
