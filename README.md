@@ -2,6 +2,8 @@
 
 ## Сборка Docker-образа
 
+1. Создание образа: `docker build -t plane .`
+2. Запуск контейнера: `docker run -p 8000:8000 -d --name plane-container plane`
 
 
 ## Развертывание
