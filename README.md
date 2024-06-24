@@ -81,6 +81,12 @@ pip install -v -r requirements-cpu.txt --extra-index-url https://download.pytorc
 VLLM_TARGET_DEVICE=cpu python setup.py install
 ```
 
+5. Копируем веса llama-3-8b-instruct в папку с таким же названием. В корень нашего проекта(веса не могут быть приложены они скачиваются по индивидуальному ключу с huggingface)
+
+6. Важные требования: python 3.9-3.11, поддержка процессором команд AVX_512
+
+7. Запускаем python main_with_llm.py из виртуальной среды
+
 ## Диаграмма
 
 Техническая реализация экспертной системы представлена диаграммой ниже
