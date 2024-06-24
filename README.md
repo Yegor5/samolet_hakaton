@@ -85,7 +85,7 @@ VLLM_TARGET_DEVICE=cpu python setup.py install
 
 6. Важные требования: python 3.9-3.11, поддержка процессором команд AVX_512
 
-7. Запускаем python main_with_llm.py из виртуальной среды
+7. Запускаем python main_with_llm.py из виртуальной среды для развертывания
 
 ## Диаграмма
 
